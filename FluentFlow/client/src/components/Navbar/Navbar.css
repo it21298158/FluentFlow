@@ -1,0 +1,19 @@
+/* Navbar.css */
+ul {
+    margin-top: 0; /* Add this to remove the default margin */
+    padding-left: 0; /* Add this to remove the default padding */
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Vertically center items */
+  }
+  
+  ul li {
+    margin-left: 20px; /* Add margin between list items */
+    list-style-type: none; /* Remove bullet points */
+    padding: 10px; /* Add padding to increase space inside list items */
+  }
+  
+  .logo {
+    margin-right: auto; /* Push the logo to the left */
+  }
+  
