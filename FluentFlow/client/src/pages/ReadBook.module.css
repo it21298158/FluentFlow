@@ -1,0 +1,43 @@
+/* ReadBook.module.css */
+
+.ReadBook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.ReadBook_Row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.ReadBook_Row img {
+  max-width: 200px;
+  height: auto;
+}
+
+.Icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.Icons a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.Icons a:hover {
+  color: #007bff;
+}
+
+span {
+  font-weight: bold;
+}
